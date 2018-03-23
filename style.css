@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kszjk3');
+  src:  url('fonts/icomoon.eot?kszjk3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kszjk3') format('truetype'),
+    url('fonts/icomoon.woff?kszjk3') format('woff'),
+    url('fonts/icomoon.svg?kszjk3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-folder-upload:before {
+  content: "\e934";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-cloud-download:before {
+  content: "\e9c2";
+}
+.icon-cloud-upload:before {
+  content: "\e9c3";
+}
+.icon-cloud-check:before {
+  content: "\e9c4";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-vk:before {
+  content: "\ea98";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.btn-primary-vk {
+	color: ;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.lding {
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.lds-css {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    z-index: 1;
+}
+
+.progress {
+    height: 2rem;
+    font-size: 12pt;
+}
+
+.card-header-right {
+    position: absolute;
+    right: 10px;
+}
+
+.card-header-right p {
+    line-height: 3rem;
+}
+
+.badge {
+    margin: 0.5rem;
+}
+
+.table {
+    margin-top: -1.3rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.btn-outline-primary-vk {
+	color: #336699;
+	background-color: transparent;
+	background-image: none;
+	border-color: #3366cc
+}
+
+.btn-outline-primary-vk:hover {
+	color: #fff;
+	background-color: #336699;
+	border-color: #3366cc
+}
+
+.btn-outline-primary-vk.focus,
+.btn-outline-primary-vk:focus {
+	box-shadow: 0 0 0 .2rem rgba(51, 102, 153, .5)
+}
+
+.btn-outline-primary-fb {
+	color: #4267b2;
+	background-color: transparent;
+	background-image: none;
+	border-color: #4742b2
+}
+
+.btn-outline-primary-fb:hover {
+	color: #fff;
+	background-color: #4267b2;
+	border-color: #4742b2
+}
+
+.btn-outline-primary-fb.focus,
+.btn-outline-primary-fb:focus {
+	box-shadow: 0 0 0 .2rem rgba(51, 102, 153, .5)
+}
+
+.btn-outline-secondary {
+	width: 2.7rem;
+}
+
+@keyframes lds-cube {
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes lds-cube {
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.lds-cube {
+    position: relative;
+}
+
+.lds-cube div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    background: #ec0000;
+    -webkit-animation: lds-cube 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-cube 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.3s;
+    animation-delay: -0.3s;
+}
+
+.lds-cube div:nth-child(2) {
+    top: 10px;
+    left: 110px;
+    background: #e1e1e1;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.lds-cube div:nth-child(3) {
+    top: 110px;
+    left: 110px;
+    background: #0057ff;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.lds-cube div:nth-child(4) {
+    top: 110px;
+    left: 10px;
+    background: #a5a5a5;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+.lds-cube {
+    width: 200px !important;
+    height: 200px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0; }
+
+.github-corner:hover .octo-arm {
+  animation:octocat-wave 560ms ease-in-out
+}
+.octo-arm {
+  transform-origin: 40px;
+  position:absolute;
+}
+
+@keyframes octocat-wave{
+  0%,100%{
+      transform:rotate(0)
+  }
+  20%,60%{
+      transform:rotate(-1deg)
+  }
+  40%,80%{
+      transform:rotate(10deg)
+  }
+}
+@media (max-width:500px){
+  .github-corner:hover .octo-arm{
+      animation:none
+  }
+  .github-corner .octo-arm{
+      animation:octocat-wave 560ms ease-in-out
+  }
+}
